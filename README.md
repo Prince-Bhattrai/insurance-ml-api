@@ -14,30 +14,18 @@ A FastAPI backend serving a machine learning model to predict insurance premium 
 - Uvicorn (ASGI server)
 - HTML/CSS/JavaScript frontend
 
-## Project Structure
-.
-├── main.py # FastAPI backend
-├── model.pkl # Pre-trained model (not included)
-├── index.html # Frontend UI
-├── frontend.js # Frontend logic
-├── frontend.css # Frontend styling
-└── README.md
 
-bash
-Copy
-Edit
+
 
 ## Setup
 
 1. Clone the repo:
-```bash
+
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 Create and activate a virtual environment:
 
-bash
-Copy
-Edit
+
 python -m venv venv
 # Windows
 venv\Scripts\activate
@@ -45,18 +33,14 @@ venv\Scripts\activate
 source venv/bin/activate
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install fastapi uvicorn pandas scikit-learn
 Add your trained model as model.pkl in the root directory.
 
 Running
 Start the backend:
 
-bash
-Copy
-Edit
+
 uvicorn main:app --reload
 Open index.html in a browser for the frontend.
 
@@ -70,8 +54,7 @@ API
 POST to /predict with JSON:
 
 json
-Copy
-Edit
+
 {
   "age": 30,
   "weight": 70.5,
@@ -83,14 +66,12 @@ Edit
 }
 Response example:
 
-json
-Copy
-Edit
+
 {
   "predicted_category": "Low Risk"
 }
 Notes
-model.pkl is required but not included.
+model.pkl is required.
 
 Robust input validation is implemented.
 
