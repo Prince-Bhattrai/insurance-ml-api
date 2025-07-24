@@ -26,7 +26,6 @@ cd your-repo-name
 Create and activate a virtual environment:
 
 
-python -m venv venv
 # Windows
 python -m venv venv
 
