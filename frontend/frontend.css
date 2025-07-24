@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: #444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+
+.input-box{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.input-box input, button{
+    width: 90%;
+    padding: 10px 14px;
+    border-radius: 10px;
+
+}
+.input-box input{
+    border: 1px solid #444;
+    background: transparent;
+    color: #444;
+
+}
+
+
+.input-box button{
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+.input-box button:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.input-box input:focus{
+    outline: 1px solid blueviolet;
+    color: #fff;
+}

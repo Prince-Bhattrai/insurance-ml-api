@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FastAPI Model Prediction</title>
+    <link rel="stylesheet" href="./frontend.css">
+</head>
+
+<body>
+    <div class="input-box">
+        <h1>Predict Insurance</h1>
+        <input type="number" id="age" placeholder="Your age" required>
+        <input type="number" id="weight" placeholder="Your weight in kg" required>
+        <input type="number" id="height" placeholder="Your height in meter" required>
+        <input type="number" id="income" placeholder="Your income in LPA" required>
+        <input type="text" id="smoker" placeholder="Do you smoke? yes or no" required>
+        <input type="text" id="city" placeholder="Your city where you live" required>
+        <input type="text" id="occupation" placeholder="Your occupation" required>
+
+        <button onclick="sendData()">Predict</button>
+    </div>
+    <p id="result"></p>
+
+    <script src="./frontend.js"></script>
+</body>
+
+</html>
