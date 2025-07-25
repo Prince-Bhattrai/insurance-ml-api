@@ -21,7 +21,7 @@ A FastAPI backend serving a machine learning model to predict insurance premium 
 
 1. Clone the repo:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Prince-Bhattrai/insurance-ml-api.git
 cd your-repo-name
 Create and activate a virtual environment:
 
